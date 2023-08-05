@@ -1,0 +1,47 @@
+/* portfolio.css */
+/* Add responsive styles for PortfolioCard component */
+.portfolio-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-card h4 {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* Add responsive styles for Portfolio component */
+.portfolio-row {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .portfolio-row .image-col,
+  .portfolio-row .card-col {
+    text-align: center;
+  }
+  .portfolio-row .image-col img,
+  .portfolio-row .card-col .portfolio-card {
+    margin: 0 auto;
+  }
+}
+.img-fluid{
+  width:100%;
+  height:100%;
+  border-radius:15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+@media (max-width: 576px) {
+  .portfolio-card p {
+    font-size: 14px;
+  }
+}
+
+/* Additional styles for the entire container */
+.container {
+  padding: 20px;
+}

@@ -1,0 +1,116 @@
+/* report.css */
+
+/* Basic styling for the report header */
+p{
+    margin-top:60px;
+}
+.report {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Styling for the progress bar divs */
+  #evDiv,
+  #websiteDiv,
+  #mopDiv {
+    text-align: center;
+    display:grid;
+    margin-bottom:40px;
+  }
+  
+  .evImage,
+  .chamImage,
+  .mopImage {
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .evImage img,
+  .chamImage img,
+  .mopImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  /* Styling for the contributions table */
+  .contributions {
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom:100px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 767px) {
+    /* For screens smaller than 768px (e.g., mobile devices) */
+  
+  
+    /* Adjust the size of the progress bar images on smaller screens */
+    .evImage,
+    .chamImage,
+    .mopImage {
+      width: 80px;
+      height: 80px;
+    }
+  
+    /* Increase the font size of the contributions table on smaller screens */
+    .contributions {
+      margin-top: 30px;
+    }
+  
+    table {
+      font-size: 14px;
+    }
+  }
+
+  #myBar {
+    background-color: #00bfff; /* Change the progress bar background color */
+    color: white;
+    width:30%; /* Change the progress bar text color */
+    height:6vh;
+    padding:6px;
+    margin-top:10px;
+  }
+  
+  /* Custom styling for the "Melbourne Open Data" label */
+  #webBar {
+    background-color: orange; /* Change the label text color */
+    color: white;
+    width:40%; /* Change the progress bar text color */
+    height:6vh;
+    padding:6px; /* Add bold font weight */
+    margin-top:10px;
+  }
+  #mopBar {
+    background-color: pink; /* Change the label text color */
+    color: white;
+    width:60%; /* Change the progress bar text color */
+    height:6vh;
+    padding:6px; /* Add bold font weight */
+    margin-top:10px;
+  }
+
+.back{
+  text-align: center;
+}
