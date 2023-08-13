@@ -20,7 +20,7 @@ class Resources extends Component {
 
                 {/* image */}
                 <div className="smart">
-                  <img src={smartCity} width="300" height="250"></img>
+                  <img src={smartCity} width="400" height="250"></img>
                 </div>
                 {/* text */}
 

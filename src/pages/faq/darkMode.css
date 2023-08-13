@@ -2,6 +2,7 @@
 .bg
 {
     background-color: #242748;
+    height: 70vh;
 }  
 
 .faqheadingmode{
@@ -70,7 +71,7 @@
 {
     font-size: 18px;
     position: relative;
-    color: white;
+    color: black;
 }
 
 .boxmode input

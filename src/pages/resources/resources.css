@@ -1,101 +1,95 @@
+/* resources.css */
 
-
-.top{
+/* Top-level container */
+.container {
+    padding: 50px 0;
+  }
+  
+  /* Rectangle styling */
+  .rectangle,
+  .rectangle25 {
+    background-color: skyblue;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  /* Background styling for the rectangles */
+  .background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  /* Image styling */
+  .smart img,
+  .tech img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styling */
+  .heading,
+  .heading2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Text paragraph styling */
+  .text4,
+  .textsmart,
+  .techText,
+  .techText2 {
+    font-size: 1rem;
+    line-height: 1.6;
     color: black;
-    font-size: 60px;
+  }
+  
+  /* Unordered list styling */
+  .techText2 ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .techText2 ul li {
     position: relative;
-    padding-left: 35%;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
-
-.first{
-    background-color: #E4F0FF;
-    width: 1100px;
-    height: 300px;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
-    border: 1px solid black;
-    margin-left: 2%;
-}
-
-.smart
-{
-    padding: 2%;
+    padding-left: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .techText2 ul li:before {
+    content: '\2022';
     position: absolute;
-}
-
-.heading{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: absolute;
-    font-size: 12px;
-    padding-top: 2%;
-    padding-left: 50%;
-}
-.text4{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: absolute;
-    font-size: 14px;
-    padding-top: 8%;
-    padding-left: 38%;
-    padding-right: 38%;
-}
-
-.textsmart{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: absolute;
-    font-size: 14px;
-    padding-top: 8%;
-    padding-left: 70%;
-    padding-right: 10%;
-}
-
-
-.secondrec{
-    background-color: #E4F0FF;
-    width: 1100px;
-    height: 230px;
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
-    border: 1px solid black;
-    position: absolute;
-    margin-top: 30%;
-}
-
-.tech
-{
-    padding: 2%;
-    position: absolute;
-}
-
-.heading2{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: absolute;
-    font-size: 12px;
-    padding-top: 2%;
-    padding-left: 50%;
-}
-
-.techText{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: absolute;
-    font-size: 14px;
-    padding-top: 8%;
-    padding-left: 38%;
-    padding-right: 38%;
-}
-
-.techText2{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: absolute;
-    font-size: 14px;
-    padding-top: 8%;
-    padding-left: 70%;
-    padding-right: 10%;
-}
-
-@media only screen and (orientation: portrait) {
-    /* styles for portrait orientation */
+    left: 0;
+    color: #007bff;
+  }
+  
+  /* Top section styling */
+  .top {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  /* Give some spacing to the columns */
+  .col-md-6 {
+    margin-bottom: 30px;
+  }
+  
+  /* Custom media query for responsiveness */
+  @media (max-width: 768px) {
+    .rectangle,
+    .rectangle25 {
+      padding: 15px;
     }
+  }
+  

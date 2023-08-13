@@ -13,7 +13,7 @@ function Welcome() {
     <Wrapper>
       <div className='all'>
       <ImageForWelcome/>
-     <div className='background'>
+     <div className='backgrounds'>
       <p className='wel'>Welcome to Chameleon</p>
       <div className='introduction'>
         <div className='article'>
@@ -61,7 +61,7 @@ function Welcome() {
     background:grey;
     border-bottom:2px solid green;
   }
-  .background {
+  .backgrounds {
     padding: 20px;
     background-color: ;
     display: flex;

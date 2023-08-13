@@ -17,9 +17,9 @@ class Login extends Component {
               <div className ="login-part">
               <img className ="loginImg" src= {require('../../pages/login/brandLogo.png')}/>
               <h1 className="wel">Welcome back,</h1>
-              <h1 className="loginDetails">Email</h1>
+              <h3 className="loginDetails">Email</h3>
                 <input className = "cred" type="email" placeHolder="Deakin Email"/>
-                <h1 className="loginDetails">Password</h1>
+                <h3 className="loginDetails">Password</h3>
                 <input className = "cred" type="Password" placeHolder="Password"/>
                 <button className='rounded-button-01'>Login</button>
                 <Nav.Link href="/signup">

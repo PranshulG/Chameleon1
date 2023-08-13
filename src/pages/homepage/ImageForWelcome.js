@@ -1,5 +1,5 @@
 import React from 'react'
-import tree2 from './images/tree2.png'
+import tree2 from './images/tree3.png'
 import Chameleon from './images/Chameleon_Figma.png';
 import { styled } from 'styled-components';
 
